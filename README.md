@@ -1,6 +1,7 @@
 # Java Cheat Sheet
 
-<details><summary>Data Structures</summary>
+<details>
+## Data Structures
 
 ### ArrayLists
 

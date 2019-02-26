@@ -7,65 +7,66 @@
 ```java
 List<Element> list = new ArrayList();
 ```
+### __Methods__
 
-__Add Element e to list__
-```java
-add(E e);             @return {boolean} 
-```
+* Add Element e to list
+   ```java
+   add(E e);             @return {boolean} 
+   ```
 
-__Add Element e into list at position i__
-```
-add(int i, E e);      @return {void}
-```
+* Add Element e into list at position i
+   ```java
+   add(int i, E e);      @return {void}
+   ```
 
-__Clear list__
-```
-clear();              @return {void}
-```
+* Clear list
+   ```
+   clear();              @return {void}
+   ```
 
-__Creates a clone of current list__
-```
-clone();              @return {Object} 
-```
+* Creates a clone of current list
+   ```
+   clone();              @return {Object} 
+   ```
 
-__Return true if Object o exists in list__
-```
-contains(Object o);   @return {boolean} 
-```
+* Return true if Object o exists in list
+   ```
+   contains(Object o);   @return {boolean} 
+   ```
 
-__Returns element at index index__
-```
-get(int index);       @return {E}
-```
+* Returns element at index index
+   ```
+   get(int index);       @return {E}
+   ```
 
-__Return index of Object o__
-```
-indexOf(Object o)     @return {int}
-```
+* Return index of Object o
+   ```
+   indexOf(Object o)     @return {int}
+   ```
 
-__Returns true is list is empty__
-```
-isEmpty();            @return {boolean}
-```
+* Returns true is list is empty
+   ```
+   isEmpty();            @return {boolean}
+   ```
 
-__Removes element at index index__
-```
-remove(int index);    @return {E}
-```
+* Removes element at index index
+   ```
+   remove(int index);    @return {E}
+   ```
 
-__Removes Object o. Returns true if successful__
-```
-remove(Object o);     @return {boolean}
-```
+* Removes Object o. Returns true if successful
+   ```
+   remove(Object o);     @return {boolean}
+   ```
 
-__Returns size of list__
-```
-size();               @return {int}
-```
+* Returns size of list
+   ```
+   size();               @return {int}
+   ```
 
-__Maps list to array of list Objects__
-```
-toArray();            @return {Object[]}
-```
+* Maps list to array of list Objects
+   ```
+   toArray();            @return {Object[]}
+   ```
 
 </details>

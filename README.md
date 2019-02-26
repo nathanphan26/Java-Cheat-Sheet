@@ -1,8 +1,9 @@
 # Java Cheat Sheet
 
-<!-- <details><summary>Data Structures</summary> -->
+<details><summary style="font-size: 24px;">Data Structures</summary>
 
-## ArrayLists
+<details><summary style="font-size: 20px;">ArrayLists</summary>
+
 ### __Initialize using Interfaces__
 ```java
 List<Element> list = new ArrayList();
@@ -74,5 +75,43 @@ List<Element> list = new ArrayList();
   toArray();            @return {Object[]}
   </code></pre>
   </details>
+
+</details>
+
+<details><summary style="font-size: 20px;">HashMaps</summary>
+
+### __Initialize using Interfaces__
+```java
+Map<Element,Element> map = new HashMap();
+```
+
+### __Methods__
+
+* <details><summary> put(K key, V value) </summary>
+  <pre><code>// Adds Key key Value value mapping to map
+  put(K key, V value);  @return {V}
+  </code></pre>
+  </details>
+
+* <details><summary> get(Object key) </summary>
+  <pre><code>// Returns Value V associated with key
+  get(Object key);  @return {V}
+  </code></pre>
+  </details>
+
+* <details><summary> getOrDefault(Object key, V defaultValue) </summary>
+  <pre><code>// Returns Value V associated with key or defaultValue if map contains no mapping for key
+  getOrDefault(Object key, V defaultValue);  @return {V}
+  </code></pre>
+  </details>
+
+* <details><summary> isEmpty() </summary>
+  <pre><code>// Returns true if map is empty
+  isEmpty();  @return {boolean}
+  </code></pre>
+  </details>
+
+</details> 
+<!-- End of HashMaps -->
 
 </details>

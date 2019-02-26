@@ -1,15 +1,13 @@
 # Java Cheat Sheet
 
-## Data Structures
-
-### ArrayLists
+## ArrayLists
 <details><summary>ArrayLists</summary>
 
-#### __Initialize using Interfaces__
+### __Initialize using Interfaces__
 ```java
 List<Element> list = new ArrayList();
 ```
-#### __Methods__
+### __Methods__
 
 * <details><summary> add(E e) </summary>
   <pre><code>// Add Element e to list
@@ -79,15 +77,15 @@ List<Element> list = new ArrayList();
 
 </details>
 
-### HashMaps
+## HashMaps
 <details><summary>HashMaps</summary>
 
-#### __Initialize using Interfaces__
+### __Initialize using Interfaces__
 ```java
 Map<Element,Element> map = new HashMap();
 ```
 
-#### __Methods__
+### __Methods__
 
 * <details><summary> put(K key, V value) </summary>
   <pre><code>// Adds Key key Value value mapping to map

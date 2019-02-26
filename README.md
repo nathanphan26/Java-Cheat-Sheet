@@ -2,45 +2,69 @@
 
 <!-- <details><summary>Data Structures</summary> -->
 
-### ArrayLists
-Initialize using Interfaces
+## ArrayLists
+### __Initialize using Interfaces__
 ```java
 List<Element> list = new ArrayList();
+```
 
-// Add Element e to list
+__Add Element e to list__
+```java
 add(E e);             @return {boolean} 
+```
 
-// Add Element e into list at position i
+__Add Element e into list at position i__
+```
 add(int i, E e);      @return {void}
+```
 
-// Clear list
+__Clear list__
+```
 clear();              @return {void}
+```
 
-// Creates a clone of current list
+__Creates a clone of current list__
+```
 clone();              @return {Object} 
+```
 
-// Return true if Object o exists in list
+__Return true if Object o exists in list__
+```
 contains(Object o);   @return {boolean} 
+```
 
-// Returns element at index index
+__Returns element at index index__
+```
 get(int index);       @return {E}
+```
 
-// Return index of Object o
+__Return index of Object o__
+```
 indexOf(Object o)     @return {int}
+```
 
-// Returns true is list is empty
+__Returns true is list is empty__
+```
 isEmpty();            @return {boolean}
+```
 
-// Removes element at index index
+__Removes element at index index__
+```
 remove(int index);    @return {E}
+```
 
-// Removes Object o. Returns true if successful
+__Removes Object o. Returns true if successful__
+```
 remove(Object o);     @return {boolean}
+```
 
-// Returns size of list
+__Returns size of list__
+```
 size();               @return {int}
+```
 
-// Maps list to array of list Objects
+__Maps list to array of list Objects__
+```
 toArray();            @return {Object[]}
 ```
 

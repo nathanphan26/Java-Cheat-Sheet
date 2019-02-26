@@ -1,8 +1,10 @@
 # Java Cheat Sheet
 
-<details><summary style="font-size: 24px;">Data Structures</summary>
+## Data Structures
+<details><summary>Data Structures</summary>
 
-<details><summary style="font-size: 20px;">ArrayLists</summary>
+## ArrayLists
+<details><summary>ArrayLists</summary>
 
 ### __Initialize using Interfaces__
 ```java
@@ -78,7 +80,8 @@ List<Element> list = new ArrayList();
 
 </details>
 
-<details><summary style="font-size: 20px;">HashMaps</summary>
+## HashMaps
+<details><summary>HashMaps</summary>
 
 ### __Initialize using Interfaces__
 ```java

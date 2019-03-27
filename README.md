@@ -114,3 +114,65 @@ Map<Element,Element> map = new HashMap();
 </details> 
 <!-- End of HashMaps -->
 
+## MergeSort
+```java
+class mergesort {
+
+    public static void merge(int[] arr, int[] l, int[] r, int left, int right) {
+        int l_index = 0;
+        int r_index = 0;
+        int arr_index = 0;
+
+        while(l_index < left && r_index < right) {
+            if(l[l_index] < r[r_index]) {
+                arr[arr_index++] = l[l_index++];
+            } else {
+                arr[arr_index++] = r[r_index++];
+                count++;
+            }
+        }
+
+        while(l_index < left) {
+            arr[arr_index++] = l[l_index++];
+        }
+
+        while(r_index < right) {
+            arr[arr_index++] = r[r_index++];
+        }
+    }
+
+    public static void mergeSort(int[] arr, int n) {
+        if(n <= 1) return;
+        int mid = n/2;
+        int[] l = new int[mid];
+        int[] r = new int[n-mid];
+
+        for(int i = 0; i < mid; i++) {
+            l[i] = arr[i];
+        }
+
+        for(int i = mid; i < n; i++) {
+            r[i-mid] = arr[i];
+        }
+
+        mergeSort(l, mid);
+        mergeSort(r, n-mid);
+
+        merge(arr, l, r, mid, n-mid);
+    }
+
+    public static void print(int[] arr) {
+        for(int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        int[] test = new int[] {5, 4, 3, 2, 7};
+        print(test);
+        mergeSort(test, test.length);
+        print(test);
+    }
+}
+```
+<!-- End of MergeSort -->
